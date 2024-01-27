@@ -1,17 +1,7 @@
 import 'package:flutter/material.dart';
+import 'gradient_container.dart';
 
 void main() {
-  runApp(MaterialApp(
-      home: Scaffold(
-          body: Container(
-    decoration:
-        const BoxDecoration(gradient: LinearGradient(colors: Colors.accents)),
-    child: const Center(
-      child: Text(
-        'This is the text meagend this is the message',
-        softWrap: true,
-        style: TextStyle(fontSize: 26, color: Colors.blue),
-      ),
-    ),
-  ))));
+  runApp(const MaterialApp(home: Scaffold(body: GradientContainer(colors:[Colors.black,Colors.white]))));
 }
+
