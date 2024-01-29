@@ -13,7 +13,7 @@ class StyledText extends StatelessWidget {
     return Text(
       text,
       softWrap: true,
-      style: TextStyle(fontSize: 26, color: Colors.blue),
+      style: const TextStyle(fontSize: 36, color: Colors.black),
     );
   }
 }
